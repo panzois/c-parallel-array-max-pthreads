@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Build output
+parallel_max
+a.out
+*.out
+*.exe
+
+# Object files
+*.o
+*.obj
+
+# Debug symbols
+*.dSYM/
+
+# Temporary files
+*.log
+*.tmp
+
+.vscode/
+.idea/
