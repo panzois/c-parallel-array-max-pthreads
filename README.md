@@ -44,16 +44,10 @@ Outputs:
 - Maximum value
 
 
-⸻
-
-
 ## Notes on Performance
 
 Performance improves as thread count approaches available CPU cores.
 Beyond that point, thread management and context switching introduce overhead.
-
-
-⸻
 
 
 ## Environment
@@ -61,9 +55,6 @@ Beyond that point, thread management and context switching introduce overhead.
 Tested on:
 - macOS (clang)
 - Linux (gcc)
-
-
-⸻
 
 
 ## Author
