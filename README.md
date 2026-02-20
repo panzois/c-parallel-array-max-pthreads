@@ -32,8 +32,14 @@ The array is partitioned across multiple threads. Each thread computes a local m
 ## Build & Run
 
 bash
+
+```
+
+bash
 gcc src/main.c -pthread -o parallel_max
 ./parallel_max
+
+```
 
 Inputs:
 - Array size (n)
