@@ -36,12 +36,12 @@ gcc src/main.c -pthread -o parallel_max
 ./parallel_max
 
 Inputs:
-	•	Array size (n)
-	•	Number of threads (t)
+- Array size (n)
+- Number of threads (t)
 
 Outputs:
-	•	Execution time
-	•	Maximum value
+- Execution time
+- Maximum value
 
 ⸻
 
@@ -55,8 +55,8 @@ Beyond that point, thread management and context switching introduce overhead.
 ## Environment
 
 Tested on:
-	•	macOS (clang)
-	•	Linux (gcc)
+- macOS (clang)
+- Linux (gcc)
 
 ⸻
 
