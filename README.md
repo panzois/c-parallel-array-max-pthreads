@@ -35,7 +35,6 @@ bash
 
 ```
 
-bash
 gcc src/main.c -pthread -o parallel_max
 ./parallel_max
 
